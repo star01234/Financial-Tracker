@@ -13,3 +13,9 @@ module.exports = {
     idle: 10000,
   },
 };
+// .env
+// USER = "default";
+// HOST = "ep-blue-sun-a1ykfegn-pooler.ap-southeast-1.aws.neon.tech";
+// PASSWORD = "T9Q2DyJAgYtB";
+// DB = "verceldb";
+// PORT = "5000";

@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 //use router
-app.use("/api/vi/financial",financialRouter);
+app.use("/api/v1/financial",financialRouter);
 
 app.listen(PORT, () => {
   console.log("Listening to http://localhost:" + PORT);

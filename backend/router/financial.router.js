@@ -4,7 +4,7 @@ const router = express.Router();
 
 //create a naw financial
 router.post("/", financialController.create);
-//http://localhost:5000/api/vi/financial
+//http://localhost:5000/api/v1/financial
 
 //Retreive all financial records
 router.get("/",financialController.findAll);
