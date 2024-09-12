@@ -5,7 +5,7 @@ const getAllFinancialRecords = async () => {
   return await api.get(`${VITE_FINANCIAL_API_URL}`);
 };
 
-// Get all financial records by userId
+// Get all financial records by userID....
 const getAllFinancialRecordsByUserID = async (userID) => {
   return await api.get(`${VITE_FINANCIAL_API_URL}/user/${userID}`);
 };
