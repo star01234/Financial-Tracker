@@ -16,7 +16,7 @@ const NavBar = () => {
     if (e.target.checked) {
       setTheme("dark");
     } else {
-      setTheme("light"); 
+      setTheme("light"); // Ensure you set the theme to "light" when unchecked
     }
   };
 
