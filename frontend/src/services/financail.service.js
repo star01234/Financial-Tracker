@@ -10,7 +10,7 @@ const getAllFinancialRecordsByUserID = async (userID) => {
   return await api.get(`${VITE_FINANCIAL_API_URL}/user/${userID}`);
 };
 
-// Get a financial record by id.....
+// Get a financial record by id..........
 const getFinancialRecordById = async (id) => {
   return await api.get(`${VITE_FINANCIAL_API_URL}/${id}`);
 };
