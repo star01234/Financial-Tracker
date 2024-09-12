@@ -25,7 +25,7 @@ const updateFinancialRecord = async (id, record) => {
   return await api.put(`${VITE_FINANCIAL_API_URL}/${id}`, record);
 };
 
-// Delete a record
+// Delete a record   hgyh
 const deleteFinancialRecord = async (id) => {
   return await api.delete(`${VITE_FINANCIAL_API_URL}/${id}`);
 };
